@@ -1,0 +1,59 @@
+/* All style */
+
+* {
+    margin: 0;
+}
+
+/* Header components */
+
+#Header_Navbar {
+    display: flex;
+    background-color: #e8eaf6;
+    width: 100%;
+    height: 5vh;
+    justify-content: space-between;
+}
+
+#Header_Navbar_Main {
+    justify-self: center;
+    display: flex;
+    width: 10%;
+    height: 100%;
+    color: skyblue;
+    justify-items: flex-end;
+}
+
+#Header_Navbar_Main_Icon {
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    height: 75%;
+}
+
+#Header_Navbar_Mail {
+    display: flex;
+    background-color: aqua;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+
+#Header_Navbar_Alltest {
+    display: flex;
+    background-color: pink;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+#Header_Navbar_Login {
+    display: flex;
+    background-color: skyblue;
+    width: 20%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+}
