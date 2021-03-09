@@ -2,16 +2,17 @@
 
 * {
     margin: 0;
+    word-break:break-all;
 }
 
-/* Header components */
+/* Header components style*/
 
 #Header_Navbar {
     display: flex;
     background-color: #e8eaf6;
     width: 100%;
-    height: 5vh;
-    justify-content: space-between;
+    height: 6vh;
+    font-size: 2.5vh;
 }
 
 #Header_Navbar_Main {
@@ -20,7 +21,6 @@
     width: 10%;
     height: 100%;
     color: skyblue;
-    justify-items: flex-end;
 }
 
 #Header_Navbar_Main_Icon {
@@ -32,28 +32,63 @@
 
 #Header_Navbar_Mail {
     display: flex;
-    background-color: aqua;
     width: 20%;
     height: 100%;
+    margin-left: auto;
     justify-content: center;
-    align-content: center;
-    align-self: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
 }
 
 #Header_Navbar_Alltest {
     display: flex;
-    background-color: pink;
+    justify-self: flex-end;
     width: 20%;
     height: 100%;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
 }
 
 #Header_Navbar_Login {
     display: flex;
-    background-color: skyblue;
+    justify-self: flex-end;
     width: 20%;
     height: 100%;
     justify-content: center;
-    align-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.Header_Navbar_text {
+
+}
+
+/* Header Mobile screen style*/
+
+@Media screen and (max-width: 768px) {
+    #Header_Navbar {
+        display: flex;
+        height: 6vh;
+        font-size: 1.9vh;
+        width: 100%;
+    }
+
+    #Header_Navbar_Mail {
+        width: 25%;
+    }
+
+    #Header_Navbar_Alltest {
+        width: 25%;
+        margin-left: auto;
+    }
+
+    #Header_Navbar_Login {
+        width: 25%;
+        margin-lefT: auto;
+    }
+    
 }

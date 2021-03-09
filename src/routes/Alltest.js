@@ -2,7 +2,7 @@ import React from 'react';
 
 function Alltest() {
     return (
-        <div>안녕하세요</div>
+        <div>전체 테스트입니다.</div>
     );
 }
 

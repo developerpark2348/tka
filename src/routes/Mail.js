@@ -2,7 +2,7 @@ import React from 'react';
 
 function Mail() {
     return (
-        <div>안녕하세요</div>
+        <div>메일 입니다.</div>
     );
 }
 
