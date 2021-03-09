@@ -5,7 +5,7 @@
     word-break:break-all;
 }
 
-/* Header components style*/
+/* Header component style*/
 
 #Header_Navbar {
     display: flex;
@@ -91,4 +91,26 @@
         margin-lefT: auto;
     }
     
+}
+
+/* Footer component style */
+
+#Footer_body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#Footer {
+    width: 100%;
+    height: 3vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #e8eaf6;
+}
+
+#Footer_text {
+    margin-right: 2vw;
 }
