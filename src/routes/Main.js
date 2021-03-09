@@ -13,19 +13,15 @@ function Main() {
                     <ul className="Main_Notice_Sub_List">
                         공지에 대한 예시로서 긴 공지
                     </ul>
-                    <hr/>
                     <ul className="Main_Notice_Sub_List">
                         공지에 대한 예시로서 긴 공지
                     </ul>
-                    <hr/>
                     <ul className="Main_Notice_Sub_List">
                         공지에 대한 예시로서 긴 공지
                     </ul>
-                    <hr/>
                     <ul className="Main_Notice_Sub_List">
                         공지에 대한 예시로서 긴 공지
                     </ul>
-                    <hr/>
                 </div>
                 {/* 클릭시 해당 공지로 연결하도록 */}
             </div>
