@@ -14,7 +14,6 @@
     background-color: #c0c9e8;
     width: 100%;
     height: 6vh;
-    font-size: 2.5vh;
 }
 
 #Header_Navbar_Main {
@@ -267,4 +266,110 @@
     background-color: antiquewhite;
     border-top: 1px solid black;
     border-left: 1px solid black;
+}
+
+
+
+/* AllTest Component style */
+
+#Alltest_body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+#Alltest_Top {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 5%;
+}
+
+.Alltest_Search_Btn {
+    border-radius: 20px;
+    background-color: #e8eaf6;
+    outline: none;
+    width: 45%;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 1vw;
+}
+
+#Alltest_Top_Tag {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.Alltest_Tag {
+    display: flex;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.3vw;
+}
+
+#Alltest_Test {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+}
+
+#Alltest_Card {
+    display: flex;
+    width: 100%;
+    height: 14vh;
+    flex-direction: column;
+    margin-top: 0.1vh;
+}
+
+.Alltest_Test_Text {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 0.5vw;
+}
+
+#Alltest_Card_Btn {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#Alltest_Go_Test {
+    margin-left: auto;
+}
+
+#Alltest_Page {
+    margin: auto;
+    display: flex;
+    width: 100%;
+}
+
+.Alltest_Page_Btn {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Alltest Component Mobile Style */
+
+@Media screen and (max-width: 768px) {
+
+    .Alltest_Tag {
+        display: flex;
+        width: 30%;
+        margin-left: 0.3vw;
+    }
+
+    #Alltest_Card {
+        display: flex;
+        width: 100%;
+        height: 14vh;
+        flex-direction: column;
+        margin-top: 0.1vh;
+    }
+
 }

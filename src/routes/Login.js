@@ -6,8 +6,8 @@ function Login() {
     return (
         <div id="Login_body">
             <div id="Login_login">
-                <button class="Login_Btn">트위터 로그인</button>
-                <button class="Login_Btn">카카오톡 로그인</button>
+                <button className="Login_Btn">트위터 로그인</button>
+                <button className="Login_Btn">카카오톡 로그인</button>
             </div>
             <div id="Login_Bottom">
                 <div id="Login_Lank">
