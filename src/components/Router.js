@@ -1,4 +1,5 @@
 import React from 'react';
+import './Style.css';
 import Main from '../routes/Main';
 import Mail from '../routes/Mail';
 import Login from '../routes/Login';

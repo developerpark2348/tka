@@ -1,6 +1,5 @@
 import React from 'react';
 import Lank from '../components/Lank';
-import '../components/Style.css';
 
 function Main() {
     return (

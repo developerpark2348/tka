@@ -1,5 +1,4 @@
 import React from 'react';
-import './Style.css';
 import { Navbar, Nav } from 'react-bootstrap';
 import { faCertificate } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"

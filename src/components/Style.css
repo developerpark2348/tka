@@ -6,6 +6,7 @@
 }
 
 
+
 /* Header component style*/
 
 #Header_Navbar {
@@ -64,6 +65,8 @@
     color: black;
 }
 
+
+
 /* Header Mobile screen style*/
 
 @Media screen and (max-width: 768px) {
@@ -91,6 +94,7 @@
 }
 
 
+
 /* Footer component style */
 
 #Footer_body {
@@ -114,6 +118,7 @@
 }
 
 
+
 /* Lank component style */
 
 #Lank_body {
@@ -128,6 +133,7 @@
     display: flex;
     margin: auto;
 }
+
 
 
 /* Main component style */
@@ -196,6 +202,8 @@
     font-size: 60px;
 }
 
+
+
 /* Main Mobile Style */
 
 @Media screen and (max-width: 768px) {
@@ -207,4 +215,56 @@
         margin-bottom: 0.6vh;
     }
 
+}
+
+
+
+/* Login component style */
+
+#Login_body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    background-color: whitesmoke;
+}
+
+#Login_login {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 30vh;
+    margin:auto;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.Login_Btn {
+    width: 45%;
+    height: 20%;
+    margin: auto;
+    border-radius: 20px;
+    background-color: #e8eaf6;
+    outline: none;
+}
+
+#Login_Bottom {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+
+#Login_Lank {
+    width: 50%;
+}
+
+#Login_Ad {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    background-color: antiquewhite;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
 }
